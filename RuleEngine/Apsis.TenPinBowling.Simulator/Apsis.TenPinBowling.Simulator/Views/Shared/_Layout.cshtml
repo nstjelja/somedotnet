@@ -1,0 +1,26 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ten PIN Bowling</title>
+
+    <script type="text/javascript" src="@BundleTable.Bundles.ResolveBundleUrl("~/bundles/scripts",true)"></script>
+
+    @RenderSection("Scripts", false);
+
+
+   <link href="@BundleTable.Bundles.ResolveBundleUrl("~/bundles/styles",true)" rel="stylesheet" />
+   @Styles.Render("~/bundles/main")
+
+
+</head>
+<body>
+  
+              @RenderBody()
+      
+  
+</body>
+</html>

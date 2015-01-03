@@ -1,0 +1,7 @@
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\bin\Debug\Apsis.TenPinBowling.Simulator.Domain.Test.dll
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\bin\Debug\Apsis.TenPinBowling.Simulator.Domain.Test.pdb
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\bin\Debug\Apsis.TenPinBowling.Simulator.Domain.dll
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\bin\Debug\Apsis.TenPinBowling.Simulator.Domain.pdb
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\obj\Debug\Apsis.TenPinBowling.Simulator.Domain.Test.csprojResolveAssemblyReference.cache
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\obj\Debug\Apsis.TenPinBowling.Simulator.Domain.Test.dll
+C:\Users\nikola\Documents\Visual Studio 2012\Projects\Apsis.TenPinBowling.Simulator\Apsis.TenPinBowling.Simulator.Domain.Test\obj\Debug\Apsis.TenPinBowling.Simulator.Domain.Test.pdb

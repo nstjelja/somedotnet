@@ -1,0 +1,67 @@
+﻿table, tr, td, th {
+    border:0px;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.successMessage {
+    color: green;
+}
+
+.errorMessage {
+    color: red;
+}
+
+
+.scoreCard {
+    border:groove 1px darkgrey;
+    width:190px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+    .scoreCard .grid {
+        min-width:0px !important;
+    }
+
+.title {
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+.scoreCard table {
+    margin-left: auto;
+    margin-right: auto;
+   
+    width:190px;
+}
+
+
+
+.submit-scoring button{
+   margin-left: auto;
+    margin-right: auto;
+}
+
+
+.scoreCard td {
+    border:1px solid black;
+    margin:1px;
+    width:66px;
+}
+
+.scoreCard input[type=number] {
+    font-weight:bold;
+    text-align:center;
+}
+
+
+.frame div.grid {
+    min-width:0px !important;
+}
+

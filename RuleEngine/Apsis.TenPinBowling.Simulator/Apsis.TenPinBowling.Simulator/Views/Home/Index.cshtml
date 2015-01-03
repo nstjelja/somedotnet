@@ -1,0 +1,35 @@
+﻿@using System.Web.Optimization
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts{
+    @Scripts.Render("~/bundles/scorecard")
+}
+
+<div class="scoreCard">
+    <div class="grid" data-bind="onEnter: SubmitScore">
+        <div class="col-1-1 title">10 Pin Bowling Score Card</div>
+    
+        <table class="col-1-1" >
+            <tbody data-bind="foreach: Frames">
+            <tr class="frame" data-bind="visible: IsVisible">
+                <td>
+                    <input type="number" min="0" max="10" data-bind="value: First, enable: IsActive, hasFocus: HasFocus" /></td>
+                <td><input type="number" min="0" max="10" data-bind="value: Second, enable: IsSecondEnabled" /></td>      
+                <td><span data-bind="text: Score"></span></td>        
+            </tr>
+            </tbody>
+        </table>
+  
+        <div class="col-1-1" data-bind="foreach: Messages, css: { errorMessage: IsError() , successMessage : !IsError()}">
+           <p data-bind="text: $data"></p>
+               
+        </div>
+        <div class="col-1-1 submit-scoring">
+            <button data-bind="click: ResetGame">Reset game</button>
+            <button data-bind="click: SubmitScore, enable: IsModelValid">Submit scoring</button>
+        </div>
+    </div>
+</div>
